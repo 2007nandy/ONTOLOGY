@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f8;
+    color: #263248;
+}
+
+header {
+    background: #253c70;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.student, .panel {
+    background: white;
+    padding: 23px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccd2df;
+}
+
+.student p {
+    margin-top: 9px;
+}
+
+.panel h2, .student h2 {
+    color: #253c70;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 13px 0 7px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background: #2868b2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 17px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #17477f;
+}
+
+.reset {
+    background: #c74747;
+}
+
+#mapping, #knowledge,
+#relationships, #decision {
+    background: #f0f4fa;
+    padding: 18px;
+    border-radius: 7px;
+    line-height: 2;
+    overflow-wrap: anywhere;
+}
+
+.success {
+    color: #168047;
+    font-weight: bold;
+}
+
+.error {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+footer {
+    background: #253c70;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    line-height: 1.8;
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 94%;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}

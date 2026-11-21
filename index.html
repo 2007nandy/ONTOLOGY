@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Ontology Resolver</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <h1>🧠 Enterprise Ontology Resolver</h1>
+    <p>Knowledge Engineering - Terminology Standardization</p>
+</header>
+
+<main class="container">
+
+    <section class="student">
+        <h2>Student Details</h2>
+        <p>Name: NANTHITHA S</p>
+        <p>Register Number: 732924ITR073</p>
+        <p>Subject: 22ITE61 - Knowledge Engineering</p>
+    </section>
+
+    <section class="panel">
+        <h2>Terminology Search</h2>
+
+        <label>Select Department</label>
+        <select id="department">
+            <option value="HR">Human Resources</option>
+            <option value="Finance">Finance</option>
+            <option value="IT">Information Technology</option>
+            <option value="Sales">Sales</option>
+        </select>
+
+        <label>Enter Department Term</label>
+        <input type="text" id="term"
+               placeholder="Example: Staff Member">
+
+        <button onclick="resolveTerm()">
+            Resolve Terminology
+        </button>
+
+        <button class="reset" onclick="resetSystem()">
+            Reset
+        </button>
+    </section>
+
+    <section class="panel">
+        <h2>Ontology Mapping Result</h2>
+        <div id="mapping">
+            Enter a term to view its standard concept.
+        </div>
+    </section>
+
+    <section class="panel">
+        <h2>Knowledge Base</h2>
+        <div id="knowledge">
+            Ontology concepts will appear here.
+        </div>
+    </section>
+
+    <section class="panel">
+        <h2>Semantic Relationships</h2>
+        <div id="relationships">
+            Waiting for terminology analysis.
+        </div>
+    </section>
+
+    <section class="panel">
+        <h2>Decision Making</h2>
+        <div id="decision">
+            No decision available.
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Developed by NANTHITHA S</p>
+    <p>Register Number: 732924ITR073</p>
+    <p>Knowledge Engineering - Innovative Practice</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
